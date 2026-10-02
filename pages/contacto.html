@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | StreetWear</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body class="pagina">
+    <header class="header-contenedor">
+        <div class="header-left">
+            <a href="../index.html" title="Inicio">
+                <figure>
+                    <img class="img-logo" src="../img/logo.jpg" alt="Logo del emprendimiento">
+                </figure>
+            </a>
+        </div>
+        <nav class="nav">
+            <ul class="nav-lista">
+                <li><a class="nav-link" href="../index.html">Inicio</a></li>
+                <li><a class="nav-link" href="./producto.html">Tienda</a></li>
+                <li><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+                <li><a class="nav-link" href="./preguntas.html">Preguntas Frecuentes</a></li>
+                <li><a class="nav-link" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="main-contenedor">
+        <h1 class="titulo-principal">Contactate con nosotros</h1>
+        <section class="bloque-seccion">
+            <p><strong>Dirección: Buenos Aires 3045</strong></p>
+            <p><strong>Teléfono: +54 225654789</strong></p>
+            <p><strong>Instagram: @StreetWear</strong></p>
+        </section>
+        <section class="bloque-seccion">
+            <form class="formulario" action="#" method="post">
+                <div class="campo-grupo">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" class="form-input" required placeholder="Tu nombre">
+                </div>
+                <div class="campo-grupo">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" class="form-input" required
+                        placeholder="email@example.com">
+                </div>
+                <div class="campo-grupo">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" rows="4" class="form-input"
+                        placeholder="¿En que puedo ayudarte?"></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+    <footer class="pie">
+        <p>Desarrollado por Iñaki</p>
+        <p>&copy; <span id="year"></span> Todos los Derechos Reservados.</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com/" target="_blank">WhatsApp</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
