@@ -228,7 +228,6 @@ body {
   font-weight: 600;
   font-family: var(--fuenteTexto);
   font-size: 1rem;
-  color: var(--blanco);
   cursor: pointer;
 }
 
@@ -264,11 +263,6 @@ body {
 
 .pie a {
   color: var(--blanco);
-}
-
-.logos-redes {
-  width: 28px;
-  height: 28px;
 }
 
 @media (min-width: 640px) {
